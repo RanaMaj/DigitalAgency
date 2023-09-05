@@ -22,8 +22,9 @@
   }
 
   .intro-section .intro-content h3 {
-    width: 90%;
+    width: 100%;
     text-align: center;
+    font-size: 32px;
   }
 
   .intro-section .intro-content p {
@@ -67,6 +68,18 @@
   }
 
   .design-section .design-content h3 {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .testimonials-section .testimonials-content h3,
+  .support-section .support-content h3 {
+    font-size: 32px;
+    width: 85%;
+  }
+
+  .support-section .support-content p {
+    margin: 0 auto;
     text-align: center;
   }
 
