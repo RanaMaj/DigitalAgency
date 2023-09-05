@@ -133,6 +133,10 @@ ul li {
   justify-content: space-around;
 }
 
+.brand-company img {
+  width: 100%;
+}
+
 /* Design Section */
 .design-section {
   display: flex;

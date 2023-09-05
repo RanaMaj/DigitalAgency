@@ -30,9 +30,20 @@
     text-align: center;
   }
 
-  .img-intro {
+  .img-intro,
+  .img-design {
     text-align: center;
     margin-top: 3%;
+    width: 100%;
+  }
+
+  .img-intro img,
+  .img-design img {
+    width: 100%;
+  }
+
+  .brand-company img {
+    width: 53px;
   }
 
   .trust-section {
