@@ -1,0 +1,177 @@
+@media (min-width: 200px) and (max-width: 991.98px) {
+
+  .main-header nav ul li {
+    display: none;
+  }
+
+  .main-header nav ul li:first-child {
+    display: block;
+  }
+
+
+  .main-wrapper {
+    width: 90%;
+  }
+
+  .intro-section {
+    flex-direction: column;
+  }
+
+  .intro-section .intro-content {
+    align-items: center;
+  }
+
+  .intro-section .intro-content h3 {
+    width: 90%;
+    text-align: center;
+  }
+
+  .intro-section .intro-content p {
+    text-align: center;
+  }
+
+  .img-intro {
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  .trust-section {
+    margin: 0 auto;
+  }
+
+
+  .brand-company {
+
+    margin: 0 auto;
+  }
+
+
+  .design-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .design-section .design-content {
+    align-items: center;
+  }
+
+  .design-section .design-content h3 {
+    text-align: center;
+  }
+
+  .design-section .design-content p {
+    text-align: center;
+  }
+
+
+  .intro-section .intro-content .arrow-btn {
+    rotate: 0deg;
+  }
+
+  .design-section .design-content a,
+  .intro-section .intro-content a {
+    rotate: 90deg;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s ease-in-out;
+  }
+
+  .testimonials-section .testimonials-box {
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 4%;
+    align-items: center;
+  }
+
+  .testimonials-section .testimonials-box .single-box {
+    width: 85%;
+    margin-bottom: 8%;
+  }
+
+  .img-support {
+    display: none;
+  }
+
+  .support-section {
+    padding: 6%;
+  }
+
+  .support-section .support-content {
+    width: 67%;
+    text-align: center;
+  }
+
+  .footer .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-item h4,
+  .footer-item p,
+  ul {
+    text-align: center;
+    margin: 15% auto;
+  }
+
+
+
+  /* Mobile Nav */
+  /* 
+  .mobile-nav {
+    background-color: var(--textColor);
+    color: #fff;
+    height: 100vh;
+    position: absolute;
+    right: 0;
+  }
+
+
+  .mobile-nav ul li a {
+    color: #fff;
+  }
+
+  .mobile-nav ul li {
+    display: block;
+  } */
+
+  /* Mobile Nav */
+  /* .mobile-header {
+    display: block;
+  } */
+
+  header .mobile-nav {
+    background-color: var(--textColor);
+    display: block;
+    opacity: 0.9;
+    color: #fff;
+    height: 100vh;
+    position: fixed;
+    right: 30px;
+    top: 0;
+    z-index: 1;
+    width: 40%;
+  }
+
+  header .mobile-nav ul li button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  header .mobile-nav ul li a {
+    color: #fff !important;
+  }
+
+  header .mobile-nav ul li {
+    display: block;
+    margin-bottom: 7%;
+    padding: 3% 15%;
+  }
+
+  header .main-header nav ul {}
+}
